@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px 30px 30px;
+  background: url("/images/black_framed_glasses.jpeg") 50% 10% / cover no-repeat;
+}
+
+.header--large {
+  min-height: 400px;
+  padding: 50px 30px;
+  background-position: 50% 75%;
+}
+
+.site-title {
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font: 300 55px/60px $zilla;
+}
